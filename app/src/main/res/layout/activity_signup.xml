@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tv_signuptitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="135dp"
+        android:fontFamily="@font/scdreamheavy"
+        android:gravity="center"
+        android:text="회원가입"
+        android:textColor="#082E6A"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_joinname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="99dp"
+        android:ems="10"
+        android:fontFamily="@font/scdreamregular"
+        android:hint="이름"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:privateImeOptions="defaultInputmode=korean"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_signuptitle" />
+
+    <EditText
+        android:id="@+id/et_joinemail"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginEnd="99dp"
+        android:ems="10"
+        android:fontFamily="@font/scdreamregular"
+        android:hint="이메일"
+        android:inputType="textEmailAddress"
+        android:privateImeOptions="defaultInputmode=english"
+        app:layout_constraintBottom_toTopOf="@+id/et_joinpassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_joinname" />
+
+    <Button
+        android:id="@+id/btn_idcheck"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/scdreambold"
+        android:text="확인"
+        android:textSize="13sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/et_joinemail"
+        app:layout_constraintStart_toEndOf="@+id/et_joinemail" />
+
+    <EditText
+        android:id="@+id/et_joinpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="99dp"
+        android:layout_marginEnd="99dp"
+        android:ems="10"
+        android:fontFamily="@font/scdreamregular"
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:privateImeOptions="defaultInputmode=english"
+        app:layout_constraintBottom_toTopOf="@+id/et_joinpwck"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_joinemail" />
+
+    <EditText
+        android:id="@+id/et_joinpwck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="99dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="60dp"
+        android:ems="10"
+        android:fontFamily="@font/scdreamregular"
+        android:hint="비밀번호 확인"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:privateImeOptions="defaultInputmode=english"
+        app:layout_constraintBottom_toTopOf="@+id/btn_joinbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_joinbutton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="104dp"
+        android:background="@drawable/btn_eulji"
+        android:fontFamily="@font/scdreambold"
+        android:gravity="center"
+        android:text="가입하기"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:background="#00ff0000"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backbtnimgxml"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
