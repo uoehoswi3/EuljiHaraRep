@@ -4,9 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StopWatch">
+    tools:context=".StopWatch"
+    android:orientation="vertical"
+    android:weightSum="10">
 
-    <ImageButton
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:text="시작" />
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:text="초기화" />
+
+
+
+        <TextView
+            android:id="@+id/timeText"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:hint="시간" />
+
+
+
+       <ImageButton
         android:id="@+id/btn_goback"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
