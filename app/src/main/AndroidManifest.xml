@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EuljiHaru">
         <activity
+            android:name=".HeartRate"
+            android:exported="false" />
+        <activity
+            android:name=".Timer"
+            android:exported="false" />
+        <activity
+            android:name=".StopWatch"
+            android:exported="false" />
+        <activity
+            android:name=".pedometer"
+            android:exported="false" />
+        <activity
             android:name=".Camera"
             android:exported="false" />
         <activity
