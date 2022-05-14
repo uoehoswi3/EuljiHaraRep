@@ -33,8 +33,11 @@
         <entry key="..\:/Users/thdus/AndroidStudioProjects/EuljiHaru/app/src/main/res/layout/activity_haru.xml" value="0.24114583333333334" />
         <entry key="..\:/Users/thdus/AndroidStudioProjects/EuljiHaru/app/src/main/res/layout/activity_intro.xml" value="0.2375" />
         <entry key="..\:/Users/thdus/AndroidStudioProjects/EuljiHaru/app/src/main/res/layout/activity_login.xml" value="0.144" />
-        <entry key="..\:/Users/thdus/AndroidStudioProjects/EuljiHaru/app/src/main/res/layout/activity_main.xml" value="0.12" />
+        <entry key="..\:/Users/thdus/AndroidStudioProjects/EuljiHaru/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/thdus/AndroidStudioProjects/EuljiHaru/app/src/main/res/layout/activity_pedometer.xml" value="0.1526268115942029" />
         <entry key="..\:/Users/thdus/AndroidStudioProjects/EuljiHaru/app/src/main/res/layout/activity_signup.xml" value="0.264" />
+        <entry key="..\:/Users/thdus/AndroidStudioProjects/EuljiHaru/app/src/main/res/layout/activity_stop_watch.xml" value="0.2375" />
+        <entry key="..\:/Users/thdus/AndroidStudioProjects/EuljiHaru/app/src/main/res/layout/activity_timer.xml" value="0.2375" />
         <entry key="..\:/Users/thdus/AndroidStudioProjects/EuljiHaru/app/src/main/res/layout/signup.xml" value="0.24114583333333334" />
         <entry key="..\:/Users/thdus/AndroidStudioProjects/EuljiHaru/app/src/main/res/mipmap-anydpi-v26/ic_main.xml" value="0.247" />
       </map>
