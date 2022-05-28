@@ -114,14 +114,15 @@ public class Schedule extends AppCompatActivity {
         String s45=sp.getString("c2"," ");
 
         mon1.setText(s);mon2.setText(s2);mon3.setText(s3);mon4.setText(s4);mon5.setText(s5);
-        tues1.setText(s5);tues2.setText(s6);tues3.setText(s7);tues4.setText(s8);tues5.setText(s9);
-        wen1.setText(s10);wen2.setText(s11);wen3.setText(s12);wen4.setText(s13);wen5.setText(s14);
-        th1.setText(s15);th2.setText(s16);th3.setText(s17);th4.setText(s18);th5.setText(s19);
-        f1.setText(s20);f2.setText(s21);f3.setText(s22);f4.setText(s23);f5.setText(s24);
-        mon6.setText(s25);mon7.setText(s26);mon8.setText(s27);mon9.setText(s28);tues6.setText(s29);
-        tues7.setText(s30);tues8.setText(s31);tues9.setText(s32);wen6.setText(s33);wen7.setText(s34);
-        wen8.setText(s35);wen9.setText(s36);th6.setText(s37);th7.setText(s38);th8.setText(s39);th9.setText(s40);
-        f6.setText(s41);f7.setText(s42);f8.setText(s43);f9.setText(s44);
+        tues1.setText(s6);tues2.setText(s7);tues3.setText(s8);tues4.setText(s9);tues5.setText(s10);
+        wen1.setText(s11);wen2.setText(s12);wen3.setText(s13);wen4.setText(s14);wen5.setText(s15);
+        th1.setText(s16);th2.setText(s17);th3.setText(s18);th4.setText(s19);th5.setText(s20);
+        f1.setText(s21);f2.setText(s22);f3.setText(s23);f4.setText(s24);f5.setText(s25);
+        mon6.setText(s26);mon7.setText(s27);mon8.setText(s28);mon9.setText(s29);
+        tues6.setText(s30);tues7.setText(s31);tues8.setText(s32);tues9.setText(s33);
+        wen6.setText(s34);wen7.setText(s35);wen8.setText(s36);wen9.setText(s37);
+        th6.setText(s38);th7.setText(s39);th8.setText(s40);th9.setText(s41);
+        f6.setText(s42);f7.setText(s43);f8.setText(s44);f9.setText(s45);
     }
     protected void onStop() {
         super.onStop();
